@@ -1,5 +1,5 @@
 # General Description 
-This is study project on `Data mining` course on processing  [Moscow exchange dataset](https://disk.yandex.ru/d/pYd6diTKHfj8ow?w=1) with `python`  
+This is a study project on `Data mining` course on processing  [Moscow exchange dataset](https://disk.yandex.ru/d/pYd6diTKHfj8ow?w=1) with `python`  
 The dataset include order log of bids and asks on Moscow exchange for 3 month, 21-22 working days per month, ~5.000.000 - 8.000.000 transactions per day, `~405.000.000 data rows total`
 
 My work include:
