@@ -82,6 +82,6 @@ Price predictions using these features can be described in several ways
 2. Classification: Price in t+dt will be >=p+dp or <=p+dp or wont change
 2. Classification2: Price in on interval [t,t+dt] will hit >=p+dp or <=p+dp or wont 
 
-We can found all of these numbers if we will present price at each point in time as a sum of `trend` and `Brownian motion`. Then we will only need to predict 2 coefficients: of trend and Brownian motion
+We can found all of these numbers if we will present price at each point in time as a sum of `trend` and `Brownian motion`. Then we will only need to predict 2 coefficients: of trend and Brownian motion changing in time
 
 <img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;\inline&space;S_t&space;=&space;S_{t_0}&space;&plus;&space;\mu&space;(t-t_0)&space;&plus;\delta&space;W_0&space;\\&space;&space;\text{where}&space;\mu&space;\text{is&space;trend&space;coefficient&space;and&space;}&space;\\&space;\delta&space;\text{&space;is&space;Brownian&space;motion&space;coefficient}&space;\\&space;\text{and&space;S&space;is&space;a&space;price}"/>
